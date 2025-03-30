@@ -7,14 +7,5 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.AddField(
-            model_name='message',
-            name='video',
-            field=models.FileField(blank=True, null=True, upload_to='messages/videos/'),
-        ),
-        migrations.AddField(
-            model_name='message',
-            name='voice_message',
-            field=models.FileField(blank=True, null=True, upload_to='messages/voice/'),
-        ),
+        # Empty operations - these fields already exist in the initial migration
     ] 
